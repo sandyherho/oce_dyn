@@ -13,7 +13,7 @@ def animate():
     fig, ax = plt.subplots()
     fig.set_size_inches(10, 5)
 
-    data = np.loadtxt("./output.txt")  # Load data
+    data = np.loadtxt("./output_fortran.txt")  # Load data
 
     ax.set_xlim(0, 60)  # Set time range in minutes
     ax.set_ylim(-100, 0)

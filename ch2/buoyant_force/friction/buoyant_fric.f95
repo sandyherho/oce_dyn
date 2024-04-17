@@ -31,7 +31,7 @@ dt = 1.0        ! value of time step; dt = 1 second here
 rho = 1025.5    ! density of your object
 g = 9.81        ! gravity
 N2 = 1.0e-4     ! stability frequency squared of ambient ocean
-r = 0.00         ! friction parameter
+r = 0.002         ! friction parameter
 
 ! Total simulation time is 1 hour. How many iteration steps relate to this?
 

@@ -16,7 +16,7 @@ def main():
     rho = 1025.5    # density of your object
     g = 9.81        # gravity
     N2 = 1.0e-4     # stability frequency squared of ambient ocean
-    r = 0.0         # friction parameter
+    r = 0.02         # friction parameter
     ntot = int(3600 / dt)  # total number of iterations
 
     # File handling
